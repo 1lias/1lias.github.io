@@ -1,1 +1,105 @@
-This website is empty.
+<!DOCTYPE html>
+<head>
+    <title>Directory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .directory {
+            flex: 30%;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 70%;
+            padding: 20px;
+        }
+
+        a {
+            color: #181818;
+            margin: 12px;
+            text-align: left;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #181818;
+            color: white;
+        }
+
+        .terminal {
+            max-width: 960px;
+            margin: auto;
+            background: whitesmoke;
+            padding: 10px;
+            padding-bottom: 50px;
+            border: 2px solid #181818;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer {
+            padding: 20px;
+            max-width: 960px;
+            margin: auto;
+            text-align: left;
+        }
+
+        h3,h4 {
+            margin-top: 0px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="terminal">
+        <h1>$ Ilias Papounidis</h1>
+        <div class="row">
+            <div class="directory">
+                <h4><i>Directory</i></h4>
+                <ul>
+                    <li><a href="#">tech</a></li>
+                    <li><a href="#">visual</a></li>
+                    <li><a href="#">resources</a></li>
+                    <li><a href="#">resume</a></li>
+                    <li><a href="#">about</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h3>This is the place where hexagons live.</h3>
+                <p>Welcome to my website, it is made with HTML + CSS, very lightweght and fast.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Ilias Papounidis © 2020
+    </div>
+</body>
