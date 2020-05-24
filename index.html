@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans" rel="stylesheet">
     <style>
+        p {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
         body {
             font-family: 'Space Mono', monospace;
+            background: #ddd;
         }
 
         * {
@@ -47,10 +53,15 @@
         .terminal {
             max-width: 960px;
             margin: auto;
+            margin-top: 5%;
             background: whitesmoke;
+            border: 2px solid #181818;
+            border-radius: 5px;
+        }
+
+        .window {
             padding: 10px;
             padding-bottom: 50px;
-            border: 2px solid #181818;
         }
 
         ul {
@@ -64,6 +75,7 @@
             max-width: 960px;
             margin: auto;
             text-align: left;
+            color: #181818;
         }
 
         h3,h4 {
@@ -75,27 +87,39 @@
                 flex-direction: column;
             }
         }
+
+        .navbar {
+            min-height: 20px;
+            background-color: rgb(44, 28, 100);
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+        }
+
+
         
     </style>
 </head>
 
 <body>
     <div class="terminal">
-        <h1>$ Ilias Papounidis</h1>
-        <div class="row">
-            <div class="directory">
-                <h4><i>Directory</i></h4>
-                <ul>
-                    <li><a href="#">tech</a></li>
-                    <li><a href="#">visual</a></li>
-                    <li><a href="#">resources</a></li>
-                    <li><a href="#">resume</a></li>
-                    <li><a href="#">about</a></li>
-                </ul>
-            </div>
-            <div class="content">
-                <h3>This is the place where hexagons live.</h3>
-                <p>Welcome to my website, it is made with HTML + CSS, very lightweght and fast.</p>
+        <div class="navbar"></div>
+        <div class="window">
+            <h1>$ Ilias Papounidis</h1>
+            <div class="row">
+                <div class="directory">
+                    <h4><i>Directory</i></h4>
+                    <ul>
+                        <li><a href="#">tech</a></li>
+                        <li><a href="#">visual</a></li>
+                        <li><a href="#">resources</a></li>
+                        <li><a href="#">resume</a></li>
+                        <li><a href="#">about</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h3>This is the place where hexagons live.</h3>
+                    <p>Welcome to my website, it is made with HTML + CSS, very lightweght and fast.</p>
+                </div>
             </div>
         </div>
     </div>
