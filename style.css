@@ -19,6 +19,11 @@ h1 {
     font-size: 1.5rem;
 }
 
+h1 a:hover {
+    background-color: white;
+    color: #3454D1;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
