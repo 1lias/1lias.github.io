@@ -39,7 +39,7 @@ h1 a:hover {
     padding: 20px;
 }
 
-a {
+.sidebar a {
     color: #181818;
     margin: 12px;
     text-align: left;
