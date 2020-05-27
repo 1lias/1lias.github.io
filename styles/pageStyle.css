@@ -4,7 +4,7 @@ p {
 
 body {
     font-family: 'Space Mono', monospace;
-    background-image: url('alt.png');
+    background-image: url('../assets/background.png');
     
     background-repeat: repeat;
     background-size: 140px;
@@ -24,7 +24,7 @@ h1 a:hover {
     color: #3454D1;
 }
 
-.row {
+.column-view {
     display: flex;
     flex-wrap: wrap;
 }
@@ -44,6 +44,15 @@ a {
     margin: 12px;
     text-align: left;
     text-decoration: none;
+}
+
+.sidebar {
+    margin-left: 22px;
+}
+
+p a{
+    margin: 0px;
+    color: #3454D1;
 }
 
 a:hover {
@@ -88,7 +97,7 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-    .row {
+    .column-view {
         flex-direction: column;
     }
 }
