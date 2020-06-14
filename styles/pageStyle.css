@@ -14,6 +14,13 @@ body {
     box-sizing: border-box;
 }
 
+a{
+    color: #181818;
+    margin: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+
 h1 {
     color: #3A2E39;
     font-size: 1.5rem;
@@ -39,7 +46,7 @@ h1 a:hover {
     padding: 20px;
 }
 
-.sidebar a {
+.directory a {
     color: #181818;
     margin: 12px;
     text-align: left;
@@ -50,7 +57,7 @@ h1 a:hover {
     margin-left: 22px;
 }
 
-p a{
+p a {
     margin: 0px;
     color: #3454D1;
 }
