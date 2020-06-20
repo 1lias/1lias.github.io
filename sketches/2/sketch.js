@@ -12,10 +12,10 @@ var sliderD;
 function setup() {
   createCanvas(800, 800);
   angleMode(DEGREES);
-  sliderD = createSlider(1,100,1,0.1);
+  sliderD = createSlider(1,100,random(1, 100),0.1);
   sliderD.position(10, height - 50);
   sliderD.style('width', '200px');
-  sliderN = createSlider(1,100,4,0.1);
+  sliderN = createSlider(1,100,random(1, 100),0.1);
   sliderN.position(10, height - 30);
   sliderN.style('width', '200px');
 }
@@ -24,7 +24,7 @@ function draw() {
   d = sliderD.value();
   n = sliderN.value();
 
-  background(234,200,200);
+  background(234,200,234);
   translate(width / 2, height / 2);
   stroke(17,17,17);
   noFill();
